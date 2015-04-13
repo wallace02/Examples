@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on Wed Dec 10 19:12:27 2014 by SUMO duarouter Version 0.21.0
+
+
+
+-->
+
+<routes>
+
+    <vType id="type1" length="5" minGap="2" vClass="passenger" guiShape="passenger">
+        <carFollowing-Krauss/>
+    </vType>
+
+    <vehicle id="0" type="type1" depart="0.00">
+        <route edges="U15-11 R11-12"/>
+    </vehicle>
+    <vehicle id="1" type="type1" depart="1.00">
+        <route edges="U13-9 R9-10 D10-14"/>
+    </vehicle>
+    <vehicle id="2" type="type1" depart="2.00">
+        <route edges="U9-5 R5-6 R6-7 D7-11"/>
+    </vehicle>
+    <vehicle id="3" type="type1" depart="3.00">
+        <route edges="D10-14 R14-15 U15-11 U11-7 U7-3 R3-4"/>
+    </vehicle>
+</routes>
